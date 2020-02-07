@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <!-- <h1><%= title %></h1> -->
+    <main>
+      <h1>Youtube Downloader</h1>
+      <form action="/download" >
+        <input id="url-input" type="text" name="url" placeholder="Video URL">
+        <input id="send-button" type="submit" value="Convert"> 
+      </form>
+      <p>using <a href="https://github.com/fent/node-ytdl-core">node-ytdl-core</a> and express.</p>
+    </main>
+  </body>
+</html>

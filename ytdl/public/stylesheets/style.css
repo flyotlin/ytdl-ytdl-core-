@@ -1,0 +1,36 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+main {
+  width: 80%;
+  margin: 0 auto; 
+  text-align: center;
+}
+
+a {
+  color: #00B7FF;
+}
+
+#url-input {
+  width: 30%;
+  height: 35px;
+  border-style: none;
+  border: 1px solid gainsboro;
+  border-radius: 15px;
+  outline: none;
+  text-align: center;
+}
+
+#send-button {
+  height: 41px;
+  padding: 2px 10px;
+  border: 5px solid #b7b9bd;
+  background-color: #b7b9bd;
+  color: white;
+  font-size: large;
+  border-radius: 10px;
+  outline: none;
+}
+
